@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   <script src="./script.js" defer></script>
+    <title>SORTEADOR DE NÚMERO</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1 id="titulo">Sorteador de numeros</h1>
+    </div>
+    <main>
+        <section>
+            <div class="content">
+            
+                <p>sortear <input type="number" name="qtde" id="qtde" placeholder="1"/>numero</p>
+                <p>entre <input type="number" name="min" id="min" placeholder="1"/>e
+            
+                <input type="number" name="max" id="max" placeholder="1"/></p>
+            
+                <p><button onclick="SortearNumero()">sortear agora!!!</button></p>
+                <input type="checkbox" name="revelar" id="revelar"/>
+                <label for="revelar">vizualize número apenas ao clicar</label>
+            </div>
+            <div id="numeros"></div>
+        </section>
+    </main>
+    
+</body>
+
+</html>

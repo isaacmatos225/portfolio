@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Chewy&display=swap');
+
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 390px;
+    background-color: #D4E2E2;
+    margin: 0 auto;
+}
+
+header, main, footer {
+    background-color: #FFF;
+}
+
+header{
+    border-bottom: 1px solid black;
+    border-top-left-radius: 12px;
+    border-top-right-radius:12px
+}
+
+
+header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+nav{
+    height: 60px;
+    background-color: #D4E2E2;
+    color: black;
+}
+
+nav ul{
+    text-align: center;
+    line-height: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+nav ul li:hover{
+    background-color: #7E9696;
+}
+
+
+main article{
+    text-align: center;
+    padding-top: 16px;    
+}
+
+footer{
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-bottom: 1px solid black;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius:12px
+
+}
+
+.borda{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.text-nome {
+    font-family: 'Chewy', cursive;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.texto{
+    font-family: 'Arvo', serif;;
+}
